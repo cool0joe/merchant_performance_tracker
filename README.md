@@ -115,49 +115,6 @@ Managing merchant performance across a large network is complex and time-consumi
 | **Backend** | Python 3.8+ | Core analytics logic |
 | **Data Processing** | Pandas | DataFrame manipulation & analysis |
 | **File I/O** | OpenPyXL | Excel read/write operations |
-| **Deployment** | Streamlit Cloud / Local | Run locally or cloud-hosted |
-
----
-
-## 📦 Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- pip (Python package manager)
-- Git
-
-### Setup Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/cool0joe/merchant_performance_tracker.git
-   cd merchant_performance_tracker
-   ```
-
-2. **Create virtual environment** (recommended)
-   ```bash
-   python -m venv .venv
-   
-   # On Windows
-   .venv\Scripts\activate
-   
-   # On macOS/Linux
-   source .venv/bin/activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the app**
-   ```bash
-   streamlit run streamlit_app.py
-   ```
-
-5. **Access the app**
-   - Opens automatically at `http://localhost:8501`
-   - Or manually navigate to that URL
 
 ---
 
@@ -348,9 +305,6 @@ merchant_performance_tracker/
 
 ---
 
-```
-
----
 
 ## 🔐 Security & Privacy
 
